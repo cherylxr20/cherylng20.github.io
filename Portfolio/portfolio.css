@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/bg.png);
+    background-size: cover;
+    background-position: center;
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #333333;
+}
+
+/******************** NAVBAR ********************/
+.logo {
+    background-image: url(Logo\ bg.png);
+    float: left;
+    width: 10px;
+}
+
+.menu .buttons {
+    list-style: none;
+    display: flex;
+    margin-left: 10px;
+}
+
+.navbar {
+    background-color: #fff;
+    border-color: #eee;
+    border-style: solid;
+    border-width: 0;
+    border-bottom-width: 1px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    z-index: 1000;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: #333333;
+    font-family: "chivo-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar-brand img {
+    height: 70px;
+    width: auto;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 10px;
+}
+
+.navbar-nav .nav-link {
+    padding: 30px 20px;
+}
+
+/******************** NAME ********************/
+.name {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+.name-container {
+    margin: auto;
+}
+
+.name h1 {
+    font-size: 5vw;
+    color: #333333;
+}
+
+/******************** CONTAINER ********************/
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+/******************** DEMO ********************/
+
+.demo {
+    align-self: center;
+    text-align: center;
+
+    margin: auto;
+}
+
+.demo h1{
+    font-size: 50px;
+    color: #333333;
+}
+
+.demo video {
+    width: 55vw;
+}
+
+.demo p {
+    margin-top: 10px;
+    font-family: "chivo-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #333333;;
+}
+
+/******************** ABOUT ME ********************/
+.about-me img {
+    float: left;
+    height: 50vh;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.about-me-info p {
+    font-family: "chivo-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #333333;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.skills li {
+    font-family: "chivo-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #333333;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    list-style: none;
+}
+
+/******************** GALLERY ********************/
+.box-character {
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+
+.vid {
+    margin-bottom: 15px;
+}
+
+/******************** FOOTER ********************/
+
+.website-footer {
+    background-color: #719b67;
+    color: #cee3c9;
+    font-family: "chivo-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 50px;
+}
+
+/******************** FORM ********************/
+.website-form {
+    margin-top: 100px;
+    margin-bottom: 248px;
+}
+
+.form-element {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.form-element label {
+    width: 200px;
+}
+
+.form-element input, .form-element select, .form-element textarea {
+    font-family: Montserrat, Arial, sans-serif;
+    display: block;
+    flex: 1;
+    padding: 5px;
+    resize: none;
+}
+
+.form-element button {
+    font-family: Montserrat, Arial, sans-serif;
+    display: block;
+    margin-right: 10px;
+    width: 100px;
+    padding: 5px;
+}
